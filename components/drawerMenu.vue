@@ -14,7 +14,7 @@
       <h4>menu.</h4>
     </div>
     <!-- Menu -->
-    <nav class="flex flex-col text-2xl text-left w-[9rem]" id="mobilemenu">
+    <nav class="flex flex-col text-2xl text-left" id="mobilemenu">
       <MyLink class="mobilemenu" @click="hamburgerOpen = false" to="/" exact
         >home.</MyLink
       >
