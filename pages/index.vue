@@ -23,7 +23,7 @@
     <!-- Video -->
     <div class="container max-w-5xl md:px-10 px-1 mx-auto  rounded-xl">
       <div class="bg-gradient-to-b from-sky-300 via-sky-100 to-pink-200  md:p-10 p-5 rounded-2xl flex items-center justify-center">
-        <video controls class="w-full shadow-lg">
+        <video controls playsinline class="w-full shadow-lg">
         <source src="https://blecksaudio.fra1.digitaloceanspaces.com/public-assets/Motion_DemoShort_3.0.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
