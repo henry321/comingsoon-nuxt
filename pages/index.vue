@@ -56,7 +56,7 @@
       </p>
     </div> -->
     <!-- Zitate -->
-    <div class="container max-w-5xl mx-auto p-24 space-y-10 flex flex-col lg:flex-row lg:space-y-0 lg:space-x-10">
+    <div class="container max-w-5xl mx-auto md:p-24 p-6 space-y-10 flex flex-col lg:flex-row lg:space-y-0 lg:space-x-10">
      
       <div class="flex flex-col space-y-1 w-full lg:w-1/2">
         <p class="text-sm font-normal tracking-wider italic">"This instrument is simply incredible. The way how you combine all these instruments together gives us the options to blend and morph them between each other.

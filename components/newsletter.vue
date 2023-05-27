@@ -10,7 +10,7 @@
             autocomplete="off" placeholder="email" data-required="true" required />
           <button class="bg-pink-200 hover:bg-pink-100 text-black 
             rounded-2xl px-4 py-2 
-            text-sm font-semibold tracking-wider" form="sib-form" type="submit">
+            md:text-sm text-xs font-semibold tracking-wider" form="sib-form" type="submit">
             keep me updated
           </button>
         </form>
