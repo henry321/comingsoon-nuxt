@@ -41,7 +41,7 @@ const route = useRoute();
 
 watch(route,()=>{
   hamburgerOpen.value=false
-  cartOpen.value=false
+  //cartOpen.value=false
   cardToastVisible.value = false
   headerLibSub.value = false
   

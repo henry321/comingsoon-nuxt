@@ -31,21 +31,30 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en',
       },
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: `https://blecksaudio.de`
+        }
+      ],
     
       charset: 'utf-16',
       viewport: 'width=device-width, initial-scale=1',
-      title: 'blecksaudio.',
+      title: 'blecksaudio. | Virtual Instruments for Kontakt',
       meta: [
         // <meta name="description" content="My amazing site">
-        { name: 'description',content: 'We build software instruments for Kontakt.' },
+        { name: 'description',content: 'We build software instruments for musicians, composers, producers & sound designers.' },
         { name: 'url',content: 'https://blecksaudio.de' },
-        { name: 'image',content: 'https://blecksaudio.fra1.digitaloceanspaces.com/public-assets/images/StudioPicture_22120702.jpg' },
+        { name: 'image',content: 'https://blecksaudio.fra1.digitaloceanspaces.com/public-assets/LOGO_BG_BLACK_23111001.png' },
 
 
         { hid: 'og-title', property: 'og:title', content: 'blecksaudio.' },
-        { hid: 'og-desc', property: 'og:description', content: 'We build software Instruments for Kontakt.' },
+        { hid: 'og-desc', property: 'og:description', content: 'We build software instruments for musicians, composers, producers & sound designers.' },
+        { hid: 'og-type', property: 'og:type', content: 'website' },
+
         { hid: 'og-url', property: 'og:url',content: 'https://blecksaudio.de' },
-        { hid: 'og-image', property: 'og:image',content: 'https://blecksaudio.fra1.digitaloceanspaces.com/public-assets/images/StudioPicture_22120702.jpg' }
+        { hid: 'og-image', property: 'og:image',content: 'https://blecksaudio.fra1.digitaloceanspaces.com/public-assets/LOGO_BG_BLACK_23111001.png' }
 
       ],
     }

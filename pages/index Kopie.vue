@@ -1,7 +1,5 @@
 <template>
-  <div class="min-h-screen flex flex-col pt-20 space-y-12 max-w-6xl mx-auto bg-black relative">
-    <!-- for google -->
-    <h1 class="scale-0 absolute border">We build software instruments for Kontakt.</h1>
+  <div class="min-h-screen flex flex-col pt-20 space-y-12 max-w-6xl mx-auto bg-black">
     <!-- Headings -->  
     <div class=" flex flex-col items-center">
         <div class="text-center flex flex-col space-y-0">
@@ -14,7 +12,7 @@
           
         </div>
         <div class="">
-          <h2 class="font-bold text-7xl m-12 bg-gradient-to-b from-sky-300 via-sky-100 to-pink-200 text-transparent bg-clip-text">MOTION.</h2>
+          <h1 class="font-bold text-7xl m-12 bg-gradient-to-b from-sky-300 via-sky-100 to-pink-200 text-transparent bg-clip-text">MOTION.</h1>
         </div>
         <div>
           <h5 class="inline">by </h5>
